@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Create An Account</h1>
+  <form action="">
+    <div>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email">
+    </div>
+    <div>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password">
+    </div>
+    <div>
+      <label for="age">Age:</label><br>
+      <select name="age" id="age">
+        <option value="">Select Age</option>
+      <option value="num">18</option>
+      <option value="num">19</option>
+      <option value="num">20</option>
+      <option value="num">21</option>
+    </select>
+    </div>
+    <div>
+      <p>Tell us a little about yourself:</p>
+      <textarea name="message" id="message" cols="70" rows="10"></textarea>
+      <br><br>
+    </div>
+    <div>
+      <input type="checkbox">
+      <label for="terms-of-service">I agree to the <a href="#">terms of service</a></label>
+      <br><br>
+    </div>
+    <button>Sign up</button>
+  </form>
+</body>
+</html>
